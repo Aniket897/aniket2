@@ -31,7 +31,7 @@ const linkes = [
 ];
 
 const ResponsiveNavbar = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     window.addEventListener("hashchange", function () {
