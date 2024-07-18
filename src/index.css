@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxygen+Mono&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Oxygen Mono", monospace;
+  font-weight: 400;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1d2222;
+  color: white;
+}
+
+/* .custom-backdrop {
+  @apply backdrop-filter backdrop-blur-lg backdrop-saturate-180 bg-opacity-75 bg-gray-900 rounded-xl border border-white border-opacity-10;
+} */
